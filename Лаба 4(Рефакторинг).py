@@ -27,13 +27,6 @@ HARE_CONFIG = {
 # === Функции === #
 
 def draw_hare(surface, x, y, config, color):
-    """
-    Рисует изменённого зайца на экране без использования эллипсов.
-    surface - объект pygame.Surface
-    x, y - координаты центра изображения
-    width, height - ширина и высота изображения
-    color - цвет, заданный в формате, подходящем для pygame.Color
-    """
     
     width = config["width"]
     height = config["height"]
